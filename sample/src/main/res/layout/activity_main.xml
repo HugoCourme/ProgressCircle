@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+    <com.hugocourme.progresscircle.ProgressCircle
+        android:id="@+id/progress_circle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        custom:progress_reached_bar_height="70dp"
+        custom:progress_reached_color="@android:color/holo_blue_light"
+        custom:progress_unreached_bar_height="40dp"
+        custom:progress_unreached_color="@android:color/black"
+        custom:progress_value="25"/>
+
+    <Button
+        android:id="@+id/increment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/increment"/>
+    <Button
+        android:id="@+id/go_to_25"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/go_to_25"/>
+</LinearLayout>
