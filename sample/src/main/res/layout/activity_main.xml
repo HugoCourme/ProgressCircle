@@ -14,6 +14,8 @@
         android:id="@+id/progress_circle"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        custom:progress_text="Big"
+        custom:progress_text_color="@android:color/holo_blue_light"
         custom:progress_reached_bar_height="70dp"
         custom:progress_reached_color="@android:color/holo_blue_light"
         custom:progress_unreached_bar_height="40dp"
