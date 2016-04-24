@@ -26,8 +26,8 @@
         android:layout_height="wrap_content"
         android:text="@string/increment"/>
     <Button
-        android:id="@+id/go_to_25"
+        android:id="@+id/reset"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/go_to_25"/>
+        android:text="@string/reset"/>
 </LinearLayout>

@@ -1,5 +1,5 @@
 <resources>
     <string name="app_name">Progress Circle</string>
     <string name="increment">Increment</string>
-    <string name="go_to_25">Go to 25%</string>
+    <string name="reset">reset</string>
 </resources>

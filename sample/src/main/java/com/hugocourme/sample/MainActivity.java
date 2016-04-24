@@ -25,11 +25,11 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        Button goToButton = (Button) findViewById(R.id.go_to_25);
+        Button goToButton = (Button) findViewById(R.id.reset);
         goToButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                progressCircle.setProgress(25);
+                progressCircle.setProgress(0);
             }
         });
     }
